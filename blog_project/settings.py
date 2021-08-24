@@ -140,3 +140,6 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000'
 ]
+
+import django_on_heroku
+django_on_heroku.settings(locals())
